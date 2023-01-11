@@ -125,3 +125,8 @@ input[type=submit]:hover{
     transform: translate(-50%,-50%);
     z-index: 2;
 }
+@media screen and (max-width:500px){
+    form{
+        min-width: 100px;
+    }
+}
